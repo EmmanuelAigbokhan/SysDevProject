@@ -14,6 +14,7 @@ final class BodySummarizer implements BodySummarizerInterface
     public function __construct(int $truncateAt = null)
     {
         $this->truncateAt = $truncateAt;
+        //
     }
 
     /**
